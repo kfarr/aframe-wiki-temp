@@ -6,11 +6,11 @@ Simply download and include with a `<script>` tag. `aframe` will be registered a
 
 _**Pro tip:** Don't use the minified version during development. You will miss out all the nice warnings for common mistakes._
 
-<div id="downloads">
-<a class="button" href="/js/aframe.js" download>Development Version</a><span class="light info">With full warnings and debug mode</span>
+<a class="button" href="/js/aframe.js" download>Development Version</a><br>
+<span class="light info">With full warnings and debug mode</span>
 
-<a class="button" href="/js/aframe.min.js" download>Production Version</a><span class="light info">Warnings stripped, {{gz_size}}kb min+gzip</span>
-</div>
+<a class="button" href="/js/aframe.min.js" download>Production Version</a><br>
+<span class="light info">Warnings stripped, {{gz_size}}kb min+gzip</span>
 
 ### CDN
 
