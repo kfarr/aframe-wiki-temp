@@ -1,1 +1,0 @@
-See our [Contributing guidelines](https://github.com/MozVR/aframe/blob/master/CONTRIBUTING.md).
