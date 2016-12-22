@@ -1,1 +1,1 @@
-Welcome to the aframe wiki!
+Welcome to the A-Frame Wiki!
