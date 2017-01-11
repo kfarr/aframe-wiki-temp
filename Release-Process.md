@@ -8,8 +8,7 @@
 - Copy dist to aframe-site releases folder
 - Deploy GitHub pages
 - Test installing from NPM and using browserify/webpack
-- Update README
-- Update Getting Started page
+- Update `prerelease` command in `package.json` and `npm run prerelease`
 
 ## A-Frame Site
 
