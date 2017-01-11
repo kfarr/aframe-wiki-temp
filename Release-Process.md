@@ -1,6 +1,7 @@
 ## A-Frame
 
 - Bump dist
+- Update `prerelease` command in `package.json` and `npm run prerelease`
 - Tag
 - GitHub release
 - npm publish
@@ -8,7 +9,6 @@
 - Copy dist to aframe-site releases folder
 - Deploy GitHub pages
 - Test installing from NPM and using browserify/webpack
-- Update `prerelease` command in `package.json` and `npm run prerelease`
 
 ## A-Frame Site
 
