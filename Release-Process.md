@@ -1,41 +1,36 @@
 ## A-Frame
 
-- Bump dist
-- Update `prerelease` command in `package.json` and `npm run prerelease`
-- Tag
-- GitHub release
-- npm publish
-- Point docs to new version
-- Copy dist to aframe-site releases folder
-- Deploy GitHub pages
-- Test installing from NPM and using browserify/webpack
+- Update version field in `package.json`
+- Bump builds (`npm run dist`)
+- Update `prerelease` command in `package.json` and `npm run prerelease` to update documentation, README.md, and build filenames.
+- Git tag
+- Publish GitHub release notes, copying and pasting from CHANGELOG.md
+- `npm publish`
+- Create and push documentation branch (i.e., `docs-vx.x.0`)
+- Modify `dist:min` and `dist:max` commands to remove the `-master` suffix. Run `npm run dist` and copy the `aframe.*` builds to `aframe-site:themes/source/releases/`.
+- Deploy GitHub pages (`npm run ghpages`).
 
 ## A-Frame Site
 
-- Update aframe dependency to point to latest docs
-- Update current A-Frame version
-- Add new version to multidep config
-- Create version folder in src/docs and add symlinks to the multidep config
-- Deploy (with blog post)
-- getting-started link
-- Make sure all examples are bumped to the newest github pages of aframe examples
+- Update `aframe.current_verison` in `_config.prod.yml`
+- Add new version to `multidep.json` config, pointing to the documentation branch
+- Publish blog post
+- Update `src/_data/examples.yml`
 
 ## Inspector
 
-- Bump dist
-- Tag
-- GitHub release
-- npm publish
-- Copy dist to aframe-site releases folder
-- Deploy GitHub pages
+- Bump builds (`npm run dist`)
+- Git tag
+- Publish GitHub release notes
+- `npm publish`
+- Deploy GitHub pages (`npm run ghpages`)
 
 ## Registry
 
-- Bump current A-Frame version
+- Update `aframe_version` in `package.json`
 
 ## Misc
-- Bump 0.2.0 to 0.3.0 in stuff like boilerplates
-- https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json
 
-## Media
-- Tweet (aframevr, mozillavr) and post on social channels (Reddit, HN, Slack)
+- Bump A-Frame CDN URL in boilerplates (`aframevr/aframe-boilerplate`) and CodePen
+- Pull request to [algolia/docsearch-configs](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json) to index documentation
+- Announce on social channels (Twitter, Reddit, HN, Slack)
