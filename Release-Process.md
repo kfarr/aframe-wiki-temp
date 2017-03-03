@@ -7,7 +7,7 @@
 - Publish GitHub release notes, copying and pasting from CHANGELOG.md
 - `npm publish`
 - Create and push documentation branch (i.e., `docs-vx.x.0`)
-- Modify `dist:min` and `dist:max` commands to remove the `-master` suffix. Run `npm run dist` and copy the `aframe.*` builds to `aframe-site:themes/source/releases/`.
+- Modify `dist:min` and `dist:max` commands to remove the `-master` suffix. Run `npm run dist` and copy the `aframe.*` builds to the [A-Frame releases repository](https://github.com/aframevr/releases).
 - Deploy GitHub pages (`npm run ghpages`).
 
 ## A-Frame Site
