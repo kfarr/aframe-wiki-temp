@@ -12,7 +12,7 @@
 
 ## A-Frame Site
 
-- Update `aframe.current_verison` in `_config.prod.yml`
+- Update `aframe.current_version` in `_config.prod.yml`
 - Add new version to `multidep.json` config, pointing to the documentation branch
 - Publish blog post
 - Update `src/_data/examples.yml`
