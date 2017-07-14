@@ -11,7 +11,6 @@
 - Copy the `aframe.*` builds above to the [A-Frame releases repository](https://github.com/aframevr/releases).
 - Deploy GitHub pages (`npm run ghpages`).
 
-
 ## A-Frame Site
 
 - Update `aframe.current_version` in `_config.prod.yml`
@@ -30,9 +29,10 @@
 ## Registry
 
 - Update `aframe_version` in `package.json`
+- Add the A-Frame version to `scripts/build.js`
 
 ## Misc
 
-- Bump A-Frame CDN URL in boilerplates (`aframevr/aframe-boilerplate`) and CodePen
+- Bump A-Frame CDN URL in boilerplates (`aframevr/aframe-boilerplate`), CodePen, and [Glitch](https://glitch.com/~aframe/).
 - Pull request to [algolia/docsearch-configs](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json) to index documentation
 - Announce on social channels (Twitter, Reddit, HN, Slack)
