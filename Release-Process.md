@@ -1,6 +1,6 @@
 ## A-Frame
 
-- Update CHANGELOG.md
+- Update CHANGELOG.md. Go through each commit in the Git log since the last release and include every notable patch. The categories should be `Major Changes`, `Deprecations`, `Enhancements`, `Performance`, `Bug Fixes`. In each category, loosely sort the more impacting changes at the top.
 - Update version field in `package.json`
 - Create versioned builds by modifying the `npm run dist:min` and `npm run dist:max` commands to build `aframe-vx.x.x` vs. `aframe-master`
 - Update `prerelease` command in `package.json` with the before and after versions and `npm run prerelease` to update documentation, README.md, and build filenames with the new version.
