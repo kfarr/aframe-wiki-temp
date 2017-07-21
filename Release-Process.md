@@ -1,5 +1,6 @@
 ## A-Frame
 
+- Bump your dependencies with `npm install`
 - Update CHANGELOG.md. Go through each commit in the Git log since the last release and include every notable patch. The categories should be `Major Changes`, `Deprecations`, `Enhancements`, `Performance`, `Bug Fixes`. In each category, loosely sort the more impacting changes at the top.
 - Update version field in `package.json`
 - Create versioned builds by modifying the `npm run dist:min` and `npm run dist:max` commands to build `aframe-vx.x.x` vs. `aframe-master`
