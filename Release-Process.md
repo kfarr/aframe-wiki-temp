@@ -18,6 +18,7 @@ For major versions.
 
 - Update `aframe.current_version` in `_config.prod.yml`
 - Add new version to `multidep.json` config, pointing to the documentation branch
+- In `package.json`, update the version in the `bumpdocs` command to have the bot force clean the documentation cache on each update
 - Publish blog post
 - Update `src/_data/examples.yml`
 
