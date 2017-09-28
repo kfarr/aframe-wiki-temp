@@ -42,5 +42,5 @@ Coordinate with Inspector maintainers.
 ## Misc
 
 - Bump A-Frame CDN URL in boilerplates (`aframevr/aframe-boilerplate`), CodePen, and [Glitch](https://glitch.com/~aframe/).
-- For major versions, pull request to [algolia/docsearch-configs](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json) to index documentation
+- Make a pull request to [algolia/docsearch-configs](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json) to index documentation for search.
 - Announce on social channels (Twitter, Reddit, HN, Slack)
