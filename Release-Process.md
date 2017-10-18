@@ -3,12 +3,12 @@
 - Bump your dependencies with `npm install`
 - Update CHANGELOG.md. Go through each commit in the Git log since the last release and include every notable patch. The categories should be `Major Changes`, `Deprecations`, `Enhancements`, `Performance`, `Bug Fixes`. In each category, loosely sort the more impacting changes at the top.
 - Update version field in `package.json`
-- Create versioned builds by modifying the `npm run dist:min` and `npm run dist:max` commands to build `aframe` (e.g., `aframe.js` and `aframe.min.js`) vs. `aframe-master`. This is for source maps to be build correctly.
+- Create versioned builds by modifying the `npm run dist:min` and `npm run dist:max` commands to build `aframe` (e.g., `aframe.js` and `aframe.min.js`) vs. `aframe-master`. This is for source maps to be build correctly since the source map URL points to a local path.
 - Update `prerelease` command in `package.json` with the before and after versions and `npm run prerelease` to update documentation, README.md, and build filenames with the new version.
 - Git tag
 - Publish GitHub release notes, copying and pasting from CHANGELOG.md
 - Create and push documentation branch (i.e., `docs-vx.x.0`, only for major versions)
-- Create builds for the CDN by modifying `dist:min` and `dist:max` commands to remove the `-master` suffix. Run `npm run dist`. Copy and push these `aframe.*` builds to the [A-Frame releases repository](https://github.com/aframevr/releases).
+- Create builds for the CDN by modifying `dist:min` and `dist:max` commands to remove the `-master` suffix. Run `npm run dist`. Copy and push these `aframe.*` builds to the [A-Frame releases repository](https://github.com/aframevr/releases). Also push these builds to the `dist/` folder.
 - Deploy GitHub pages (`npm run ghpages`).
 - `npm publish`
 
