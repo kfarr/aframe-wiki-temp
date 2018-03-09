@@ -1,8 +1,9 @@
 ## A-Frame
 
-- Bump your dependencies with `npm install`
+The master build is done by @a-frobot so no need to manually build the official dist.
+
+- Update version field in `package.json`. Push that to GitHub so the bot can build it. Then rebase off that.
 - Update CHANGELOG.md. Go through each commit in the Git log since the last release and include every notable patch. The categories should be `Major Changes`, `Deprecations`, `Enhancements`, `Performance`, `Bug Fixes`. In each category, loosely sort the more impacting changes at the top.
-- Update version field in `package.json`
 - Update `prerelease` command in `package.json` with the before and after versions and `npm run prerelease` to update documentation, README.md, and build filenames with the new version.
 - Git tag
 - Publish GitHub release notes, copying and pasting from CHANGELOG.md
@@ -31,15 +32,8 @@ Coordinate with Inspector maintainers.
 - `npm publish`
 - Deploy GitHub pages (`npm run ghpages`)
 
-## Registry
-
- For major versions.
-
-- Update `aframe_version` in `package.json`
-- Add the A-Frame version to `scripts/build.js` array
-
 ## Misc
 
-- Bump A-Frame CDN URL in boilerplates (`aframevr/aframe-boilerplate`), CodePen, and [Glitch](https://glitch.com/~aframe/).
+- Bump [Glitch](https://glitch.com/~aframe/), owned by @ngokevin.
 - Make a pull request to [algolia/docsearch-configs](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json) to index documentation for search.
 - Announce on social channels (Twitter, Reddit, HN, Slack)
