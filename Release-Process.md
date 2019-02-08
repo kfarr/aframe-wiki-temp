@@ -35,6 +35,5 @@ Coordinate with Inspector maintainers.
 
 ## Misc
 
-- Bump [Glitch](https://glitch.com/~aframe/), owned by @ngokevin.
-- Make a pull request to [algolia/docsearch-configs](https://github.com/algolia/docsearch-configs/blob/master/configs/aframe.json) to index documentation for search.
-- Announce on social channels (Twitter, Reddit, HN, Slack)
+- Bump [Glitch](https://glitch.com/~aframe/), owned by @ngokevin
+- Announce on social channels
