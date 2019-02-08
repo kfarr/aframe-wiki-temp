@@ -25,11 +25,7 @@ For major versions.
 
 ## Inspector
 
-Coordinate with Inspector maintainers.
-
 - Bump builds (`npm run dist`)
-- Git tag
-- Publish GitHub release notes
 - `npm publish`
 - Deploy GitHub pages (`npm run ghpages`)
 
