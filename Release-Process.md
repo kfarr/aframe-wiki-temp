@@ -13,7 +13,7 @@ When builds are built, make sure the source map URLs at the bottom of the builds
 - Deploy GitHub pages (`npm run ghpages`).
 - Publish GitHub release notes, copying and pasting from CHANGELOG.md
 
-## A-Frame Site
+## Site
 
 For major versions.
 
