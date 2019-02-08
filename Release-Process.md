@@ -8,7 +8,8 @@ The master build is done by @a-frobot so no need to manually build the official 
 - Git tag
 - Publish GitHub release notes, copying and pasting from CHANGELOG.md
 - Create and push documentation branch (i.e., `docs-vx.x.0`, only for major versions)
-- Create builds for the CDN by modifying `dist:min` and `dist:max` commands to remove the `-master` suffix. Run `npm run dist`. Copy and push these `aframe.*` builds to the [A-Frame releases repository](https://github.com/aframevr/releases). Also push these builds to the `dist/` folder.
+- Create builds for the `dist/` folder with `npm run prerelease`.
+- Create builds for the CDN with `FOR_RELEASE=true npm run prerelease`. Copy and push these `aframe.*` builds to the [A-Frame releases repository](https://github.com/aframevr/releases). 
 - Deploy GitHub pages (`npm run ghpages`).
 - `npm publish`
 
