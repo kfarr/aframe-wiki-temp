@@ -1,5 +1,7 @@
 ## A-Frame
 
+When builds are built, make sure the source map URLs at the bottom of the builds are correct.
+
 - Update version field in `package.json`. Push that to GitHub so the bot can build it. Then rebase off that.
 - Update CHANGELOG.md. Go through each commit in the Git log since the last release and include every notable patch. The categories should be `Major Changes`, `Deprecations`, `Enhancements`, `Performance`, `Bug Fixes`. In each category, loosely sort the more impacting changes at the top.
 - Update `prerelease` command in `package.json` with the before and after versions and `npm run prerelease` to update documentation, README.md, and build filenames with the new version.
