@@ -35,5 +35,5 @@ Coordinate with Inspector maintainers.
 
 ## Misc
 
-- Bump [Glitch](https://glitch.com/~aframe/), owned by @ngokevin
+- Bump [Glitches](https://glitch.com/~aframe/), owned by @ngokevin
 - Announce on social channels
