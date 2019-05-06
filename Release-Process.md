@@ -4,6 +4,7 @@ When builds are built, make sure the source map URLs at the bottom of the builds
 
 - Update CHANGELOG.md. Go through each commit in the Git log since the last release and include every notable patch. The categories should be `Major Changes`, `Deprecations`, `Enhancements`, `Performance`, `Bug Fixes`. In each category, loosely sort the more impacting changes at the top.
 - Update version field in `package.json`. Push that to GitHub so the bot can build it. Then rebase off that.
+- Clear and reinstall `node_modules` to make sure dependencies are up-to-date, especially for three.js.
 - Update `prerelease` command in `package.json` with the before and after versions and `npm run prerelease` to update documentation, README.md, and build filenames with the new version.
 - Git tag
 - Create and push documentation branch (i.e., `docs-vx.x.0`, only for major versions)
