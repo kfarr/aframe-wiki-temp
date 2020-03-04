@@ -17,7 +17,7 @@ ar.js is based on JavaScript implementation of [ARToolKit](https://github.com/ar
 
 # 8th Wall
 
-It's based on a home-grown JavaScript [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) solution compatible with any smartphone camera. It provides 6DoF positional tracking, surface and light estimation, world points, hit tests and image based tracking.
+[8th Wall](https://www.8thwall.com/) uses a home-grown JavaScript [SLAM](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) solution compatible with any smartphone camera. It provides 6DoF positional tracking, surface and light estimation, world points, hit tests and image based tracking.
 
 - Link to quick start example.
 - Known limitations, caveats
