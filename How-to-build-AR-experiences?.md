@@ -10,7 +10,7 @@ Browsers are shipping experimental AR extensions of the WebXR specification. You
 
 # ar.js
 
-[ar.js](https://github.com/jeromeetienne/AR.js/blob/master/README.md) is based on JavaScript implementation of [ARToolKit](https://github.com/artoolkitx/jsartoolkit5) providing marker and images based tracking using the smartphone's built-in camera. 
+[ar.js](https://github.com/jeromeetienne/AR.js/blob/master/README.md) is based on a JavaScript implementation of [ARToolKit](https://github.com/artoolkitx/jsartoolkit5) providing marker and images based tracking using the smartphone's built-in camera. 
 
 - Link to quick start example
 - Known limitations?
