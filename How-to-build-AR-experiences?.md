@@ -1,4 +1,4 @@
-There are several options to build AR experiences with [A-Frame](https://aframe.io/docs/1.0.0/introduction/) today
+There are several options to build AR experiences with [A-Frame](https://aframe.io/docs/1.0.0/introduction/) today. This guide is a community effort. If you find inaccurate or out-of-date information you're more than welcome to suggest changes.
 
 # WebXR
 
