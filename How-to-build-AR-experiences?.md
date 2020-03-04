@@ -6,7 +6,7 @@ Browsers are shipping experimental AR extensions of the WebXR specification. You
 
 - List of APIs with capabilities and limitations
 - Browser, device compatibility and necessary flags.
-- Link to examples
+- Link to quick start examples
 
 # ar.js
 
